@@ -1,0 +1,505 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-- ---------------------Nav-------------------------- --*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d9b800;
+    border-bottom: 4px solid #2f3c42;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-right: 250px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 20px;
+
+}
+
+/*-- ---------------------HOME-------------------------- --*/
+#home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img {
+    height: 80vh;
+    width: 100%;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.main h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 4.8rem;
+}
+
+.main h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+#home pre {
+    font-size: 1rem;
+}
+
+#home .b1 {
+    margin: 1.2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background: rgb(172, 167, 117);
+    color: black;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+
+#home .b2 {
+    margin: 1.2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+}
+
+
+/*-- ---------------------About-------------------------- --*/
+
+
+#about .row .image {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#about .row .image img {
+    width: 80%;
+}
+
+#about .row .about-items {
+    flex: 1 1 45rem;
+    margin-top: -450px;
+}
+
+#about .row .about-items h2 {
+    margin-left: 50%;
+    text-align: left;
+    padding: -5px 3px;
+    font-size: 4rem;
+}
+
+#about .row .about-items p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-left: 50%;
+    justify-content: left;
+}
+
+#about .icons h4 {
+    font-size: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about .icons img {
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.icon-item {
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+/*-- ---------------------Location-------------------------- --*/
+#Location {
+    padding-top: 2rem;
+    background-color: rgb(239, 232, 230);
+    text-align: center;
+    padding: 5rem;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#Location img {
+    width: 80%;
+}
+
+.right {
+    width: 60%;
+    padding-left: 2rem;
+}
+
+#Location h1 {
+    margin-left: -3rem;
+    text-align: left;
+    padding: 3rem;
+    font-size: 2rem;
+
+}
+
+.left p {
+    line-height: 1.7rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.left {
+    margin-top: -7rem;
+}
+
+/*---------------------Our------------------------*/
+#our {
+    width: 80%;
+    margin: auto;
+}
+
+#our h1 {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.all-of-section {
+    display: flex;
+    justify-content: center;
+}
+
+.all-of-section img {
+    width: 100%;
+}
+
+.one {
+    padding: 0 50px;
+    text-align: center;
+}
+
+/*---------------------Final------------------------*/
+#ocation {
+    justify-content: center;
+    background-color: rgb(239, 232, 230);
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+
+.rightt h2 {
+    font-size: 50px;
+    color: chocolate;
+    text-align: left;
+    padding: 3rem;
+    margin-left: 1%;
+}
+
+.rightt pre {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    line-height: 2rem;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.icon-listt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 3%;
+}
+
+.icon-itemm {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.leftt {
+    margin-top: -450px;
+    width: 65%;
+    margin-left: 35%;
+    
+}
+
+/*---------------------Footer------------------------*/
+#Footer {
+    background-color: rgb(64, 61, 56);
+    text-align: center;
+    padding: 5rem;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.aabout h2 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 15%;
+}
+
+.aabout .k {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+}
+
+.aabout .l {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30%;
+    line-height: 2rem;
+}
+
+.bb h2 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.bb .line {
+    color: white;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+
+.bb p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+
+}
+
+.ll h2 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 20%;
+
+}
+
+.ll p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.ll .line {
+    color: white;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 15px 80px;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.mm h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.mm p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.mm pre {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.mm .line {
+    color: white;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 15px 50px;
+    margin-right: 5%;
+    text-align: left;
+}
+
+#qq {
+    background-color: rgb(64, 61, 56);
+}
+
+.logo2 img {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.j p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* circle
+
+.circle1 {
+    top: 339px;
+    left: 1px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 5px solid #b79856;
+    box-sizing: border-box;
+    width: 60.9px;
+    height: 60.9px;
+    opacity: 0.8;
+}
+.circle2 {
+    top: 419.37px;
+    left: 1px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 5px solid #b79856;
+    box-sizing: border-box;
+    width: 60.9px;
+    height: 60.9px;
+    opacity: 0.8;
+}
+.circle3 {
+    top: 499.74px;
+    left: 1px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 5px solid #b79856;
+    box-sizing: border-box;
+    width: 60.9px;
+    height: 60.9px;
+    opacity: 0.8;
+}
+.circle4 {
+    top: 580.11px;
+    left: 1px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 5px solid #b79856;
+    box-sizing: border-box;
+    width: 60.9px;
+    height: 60.9px;
+    opacity: 0.8;
+}
+*/
